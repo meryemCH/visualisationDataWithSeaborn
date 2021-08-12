@@ -1,0 +1,10 @@
+numpy
+flask~=1.1.2
+flask_restful
+scipy
+scikit-learn==0.19.2
+gunicorn==19.7.1
+
+pandas~=1.2.3
+matplotlib~=3.4.1
+seaborn~=0.11.1

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulaire</title>
+<style>
+form{
+width:500px;
+margin:auto;
+padding:20px;
+background-color:#26C6DA;
+font-size:20px;
+color:white;
+}
+input[type:text]{
+width:80%;
+padding:5px;
+font-size:18px;
+}
+input[type = submit]{
+padding:5px;
+font-size:20px;
+width:100px;
+}
+select{
+font-size:20px;
+padding:5px;
+background-color:#26C6DA;
+}
+</style>
+<body class="bg-gray-300 mt-4">
+<form>
+    age <br>
+    <input type ="text" name ="age"><br><br>
+    pclass <br>
+    <select name="pclass">
+        <option value ="pclass"> pclass</option>
+        <option value ="1"> 1</option>
+        <option value ="2"> 2</option>
+        <option value ="3"> 3</option>
+    </select>
+   <select name="survived">
+        <option value ="survived"> survived</option>
+        <option value ="0"> 0</option>
+        <option value ="1"> 1</option>
+   </select><br><br>
+    <input type ="submit" value ="submit">
+</form>
+</body>
+</html>

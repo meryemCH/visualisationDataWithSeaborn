@@ -1,0 +1,32 @@
+ #wrap{
+     margin:0 auto;
+    text-align:center;
+     font-size:15px
+  }
+
+#nheader{
+    background-color:#26C6DA;
+    padding:25px;
+    height:50px;
+    font-family:Quicksand;
+}
+ h1 {
+    color:black;
+  }
+
+  #npara{
+  background-color:#26C6DA;
+  height:350px;
+  padding:30px;
+  }
+  #footer{
+   margin:100px 0px 0px 0px
+  }
+
+  .text_para{
+     color:black;
+     font-size:15px;
+     font-family:Quicksand;
+     background-color:#26C6DA;
+     height:20px;
+  }
